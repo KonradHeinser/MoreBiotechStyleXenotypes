@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!--Set the many MANY empire fighter types. Made into a separate xml file because there are so many that the main chances file was becoming painful to read.-->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Trooper"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Grenadier"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Janissary"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Champion"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Fighter_Cataphract"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[@Name="StellicGuardBase"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.5</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.1</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_NobleWimp"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Yeoman"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.3</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Acolyte"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.01</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.01</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Knight"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.05</Sanguophage>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Praetor"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.05</Sanguophage>
+                <MBSXT_Viperal>0.04</MBSXT_Viperal>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Baron"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.05</Sanguophage>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Count"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.05</Sanguophage>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.01</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Duke"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.15</Sanguophage>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.05</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Consul"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.15</Sanguophage>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.05</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.05</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Empire_Royal_Stellarch"]/xenotypeSet/xenotypeChances</xpath>
+        <value>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.03</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+                <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.25</Sanguophage>
+                <MBSXT_Battleborne>0.1</MBSXT_Battleborne>
+                <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.04</MBSXT_Artifexian>
+                <MBSXT_Damphir>0.1</MBSXT_Damphir>
+                <MBSXT_Harmonite>0.05</MBSXT_Harmonite>
+            </xenotypeChances>
+        </value>
+    </Operation>
+</Patch>

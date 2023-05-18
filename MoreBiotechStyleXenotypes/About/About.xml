@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Biotech Style Xenotypes</name>
+  <author>alite</author>
+  <packageId>MoreBiotechStyleXenotypes.Mod</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>LibidoGenes.Mod</li>
+    <li>FertilityGenes.Mod</li>
+  </loadAfter>
+
+  <description>
+This mod adds a bunch of xenotypes that use the base genes provided by Biotech. 
+
+Due to the number of genes Biotech makes available for use, there is a theoretically infinite number of xenotypes you can make. Unfortunately, Biotech only gives us 11 Xenotypes in the world by default, including the one that doesn't even use genes. This mod aims to help with that some by adding xenotypes that will live amongst all of the other xenos. They don't have complex backstories, but they will increase the variety you see in the world. 
+
+This mod will NOT implement any new factions, but instead increase the variety of xenotypes in existing factions. This will, in theory, make it easier to find the new xenotypes because there won't be an increase in the number of factions on the map, thus making it more likely for the ones that do exist to visit you with the new xenotypes in tow. I also decreased the chances for factions to have baseliners. For example, the outlander faction pawns normally had a 85% of being a baseliner, but with this mod it's 30%. Tribes have a 50% for baseliners, while the normal value was 100%, for a reason I'm still not completely clear on. Regardless of how unixenotypial they were before, there's been other xenotypes dropping in left and right for a while now, so you'd think there'd be at least a little variety. I digress.
+
+
+Xenotypes currently added by this mod - WARNING I'm bad at naming things. I either find a random name generator, or go with something insultingly obvious. I did both this time.
+
+Damphir - Bioengineered sanguophages with fewer limitations
+Viperal - Short-lived assassins incapable of reproducing
+Artifexian - Evolved monkeys that love making new things and sleeping
+Felionkin - Lazy human-cat hybrids with a strong desire to kill things
+Canuskin - Human-dog hybrids that enjoy digging and fighting
+Toxinborn - Peaceful Waster offshoots with a penchant for farming
+Reavers - Psychically sensitive warriors that make Hussar seem reasonable
+Harmonites - Archite-infused psychics that excel at mental tasks
+Battleborne - Unresting warriors that also do well with intellectual tasks, and very poorly with drug abstinence
+Oni - Red desert warriors who just want to watch the world burn
+
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+[url=https://github.com/KonradHeinser/][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+
+While they are not required, I did implement the genes from my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974206359]Fertility Genes[/url] and [https://steamcommunity.com/sharedfiles/filedetails/?id=2974405875]Lovin' Genes[/url] mods. I did not list them as requirements because this mod was made to provide xenotypes that don't force you to deal with more genes, but were included in this mod because I'm too lazy to make compatability mods for this. Having neither, one, or both of those mods should not impact your game negatively. 
+
+If you find any bugs or there are more types of xenotypes you'd like to see, let me know. If there's a gene mod that you'd like to see something similar for, I might be able to make a mod for that, depending on how my work schedule looks.
+  </description>
+</ModMetaData>
+
