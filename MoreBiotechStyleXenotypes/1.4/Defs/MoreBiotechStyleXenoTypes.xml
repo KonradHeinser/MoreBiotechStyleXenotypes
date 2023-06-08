@@ -30,7 +30,6 @@
             <li>Aggression_Aggressive</li>
             <li>Robust</li>
             <li>Superclotting</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_VeryLow</li>
         </genes>
     </XenotypeDef>
 
@@ -62,15 +61,14 @@
             <li>AptitudeStrong_Medicine</li>
             <li>AptitudeStrong_Social</li>
             <li>AptitudeStrong_Intellectual</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_ExtremelyLow</li>
         </genes>
     </XenotypeDef>
 
     <XenotypeDef>
         <defName>MBSXT_Artifexian</defName>
         <label>artifexian</label>
-        <description>Artifexians enjoy making things, and their evolution has lended an extra hand to this endeavor. As much as they love building things, their evolution has also aided some of their lazier tendencies, specifically those that involve sleeping more and ignoring inconvenient things. They usually don't try to start fights with others, but theyare never willing to let an insult go unanswered. Should they find themselves in real danger, they may choose to call the local animals to fight on their behalf.\n\nArtifexians are evolved monkeys from a jungle planet that was found a few hundred years ago. While the ones who made initial contact with them always felt extreme caution about what they said to the Artifexians, they were willing to acknowledge that Artifexians great potential for helping claim new lands and building new cities.</description>
-        <descriptionShort>Artifexians enjoy making things, and their evolution has lended an extra hand to this endeavor. As much as they love building things, their evolution has also aided some of their lazier tendencies, specifically those that involve sleeping more and ignoring inconvenient things. They usually don't try to start fights with others, but theyare never willing to let an insult go unanswered. Should they find themselves in real danger, they may choose to call the local animals to fight on their behalf.</descriptionShort>
+        <description>Artifexians enjoy making things, and their evolution has lended an extra hand to this endeavor. As much as they love building things, their evolution has also aided some of their lazier tendencies, specifically those that involve sleeping more and ignoring inconvenient things. They usually don't try to start fights with others, but they are never willing to let an insult go unanswered. Should they find themselves in real danger, they may choose to call the local animals to fight on their behalf.\n\nArtifexians are evolved monkeys from a jungle planet that was found a few hundred years ago. While the ones who made initial contact with them always felt extreme caution about what they said to the Artifexians, they were willing to acknowledge that Artifexians great potential for helping claim new lands and building new cities.</description>
+        <descriptionShort>Artifexians enjoy making things, and their evolution has lended an extra hand to this endeavor. As much as they love building things, their evolution has also aided some of their lazier tendencies, specifically those that involve sleeping more and ignoring inconvenient things. They usually don't try to start fights with others, but they are never willing to let an insult go unanswered. Should they find themselves in real danger, they may choose to call the local animals to fight on their behalf.</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Yttakin</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>1.2</combatPowerFactor>
@@ -100,7 +98,6 @@
             <li>AptitudeStrong_Social</li>
             <li>Body_Standard</li> 
             <li>Body_Thin</li> 
-            <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
         </genes>
     </XenotypeDef>
 
@@ -205,7 +202,7 @@
         <defName>MBSXT_Toxinborn</defName>
         <label>toxinborn</label>
         <description>Toxinborn are the less-violent cousins of Wasters. While they do still have a lot of the same resistances as Wasters, they lack the immunities and depency to pyscoid based drugs. This has led to their bodies becoming weaker overall, as their metabolisms becoming slowed down considerably. They avoid direct conflict at all costs, prefering to leave it to automated defenses and any violence inclined allies in the colony.\n\nThe differences between Wasters and Toxinborn largely appeared due to some Waster societies choosing to settle in one area, and focus on farming rather than the high of drugs and war. This does not mean they become helpless in post-apocalyptic deathworlds, as they often create massive settlements with automated turrets that let the Toxinborn farm in peace.</description>
-        <descriptionShort>Toxinborn are the less-violent cousins of Wasters. While they do still have a lot of the same resistances as Wasters, they lack the immunities and depency to pyscoid based drugs. This has led to their bodies becoming weaker overall, as their metabolisms becoming slowed down considerably. They avoid direct conflict at all costs, prefering to leave it to automated defenses and any violence inclined allies in the colony.</descriptionShort>
+        <descriptionShort>Toxinborn are the less-violent cousins of Wasters. While they do still have a lot of the same resistances as Wasters, they lack the immunities and depency to pyscoid based drugs. This has led to their bodies becoming weaker overall, as their metabolisms became considerably slower. They avoid direct conflict at all costs, prefering to leave it to automated defenses and any violence inclined allies in the colony.</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Waster</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>0.5</combatPowerFactor>
@@ -232,7 +229,7 @@
     <XenotypeDef>
         <defName>MBSXT_Reaver</defName>
         <label>reaver</label>
-        <description>Reavers are psychic warriors who try to take all psychic artifacts that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else, usually at the expense of their mental acuity and longevity.\n\nUsually there is only one or two of Reavers in any group that truly has psychic abilities, but prolonged exposure to their powers and experiments over many generations has forcefully twisted Reaver's genetics to make them more prone to violent tendencies, and it has given them a durable body to better survive the results of those tendencies, usually at the expense of their mental acuity and longevity.</description>
+        <description>Reavers are psychic warriors who try to take all psychic artifacts that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else, usually at the expense of their mental acuity and longevity.\n\nUsually there is only one or two Reavers in any group that actually has psychic abilities, but prolonged exposure to their powers and experiments over many generations has forcefully twisted Reaver's genetics to make them more prone to violent tendencies, and it has given them a durable body to better survive the results of those tendencies, usually at the expense of their mental acuity and longevity.</description>
         <descriptionShort>Reavers are psychic warriors who try to take all psychic artifacts that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else.</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
         <inheritable>true</inheritable>
@@ -275,7 +272,6 @@
             <li>AptitudePoor_Medicine</li> 
             <li>AptitudeTerrible_Social</li> 
             <li>AptitudeTerrible_Intellectual</li> 
-            <li MayRequire="FertilityGenes.Mod">VeryLowFertility</li>
         </genes>
     </XenotypeDef>
 
@@ -321,8 +317,6 @@
             <li>AptitudeStrong_Medicine</li> 
             <li>AptitudeStrong_Social</li> 
             <li>AptitudeStrong_Intellectual</li> 
-            <li MayRequire="LibidoGenes.Mod">Libido_ExtremelyLow</li>
-            <li MayRequire="FertilityGenes.Mod">ExtremelyLowFertility</li>
         </genes>
     </XenotypeDef>
 
@@ -414,8 +408,6 @@
             <li>Unstoppable</li>
             <li>AptitudeTerrible_Shooting</li> 
             <li>AptitudeRemarkable_Melee</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_VeryHigh</li>
-            <li MayRequire="FertilityGenes.Mod">LowFertility</li>
         </genes>
     </XenotypeDef>
 </Defs>
