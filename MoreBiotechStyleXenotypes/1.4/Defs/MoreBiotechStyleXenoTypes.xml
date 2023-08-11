@@ -106,7 +106,7 @@
         <label>felionkin</label>
         <description>Felionkin are human-cat hybrids that are remarkably lazy, often avoiding work that involves moving around or urgency. While they are often calm and very affectionate with their chosen individual, they have a hunting instinct that drives them to hunt other living things any time they grow too bored.\n\nFelionkin came into being not long after Pigskin were made. Once scientists realized that hybrids would frequently end up with human-like appearances, Dr. Maximus Quantum decided to try create two new types of genetic soldiers, preferably ones more controllable than the Hussar. The results were the Felionkin, instinctive hunters, and the Canuskin, loyal guardians.</description>
         <descriptionShort>Felionkin are human-cat hybrids that are remarkably lazy, often avoiding work that involves moving around or urgency. While they are often calm and very affectionate with their chosen individual, they have a hunting instinct that drives them to hunt other living things if they grow too bored.</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>1.5</combatPowerFactor>
         <genes>
@@ -154,7 +154,7 @@
         <label>canuskin</label>
         <description>Canuskin are human-dog hybrids that were bred to fight alongside their owners. They enjoy digging holes and herding animals, but tend to lack the skills required to do more mentally intensive tasks. They frequently start fights with other colonists to asert dominance. Unfortunately, they tend to live shorter lives than most xenotypes, largely due to genetic instability.\n\nCanuskin came into being not long after Pigskin were made. Once scientists realized that hybrids would frequently end up with human-like appearances, Dr. Maximus Quantum decided to try create two new types of genetic soldiers, preferably ones more controllable than the Hussar. The results were the Felionkin, instinctive hunters, and the Canuskin, loyal guardians.</description>
         <descriptionShort>Canuskin are human-dog hybrids that were bred to fight alongside their owners. They enjoy digging holes and herding animals, and they frequently start fights with other colonists to asert dominance.</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>1.5</combatPowerFactor>
         <genes>
@@ -229,8 +229,8 @@
     <XenotypeDef>
         <defName>MBSXT_Reaver</defName>
         <label>reaver</label>
-        <description>Reavers are psychic warriors who try to take all psychic artifacts that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else, usually at the expense of their mental acuity and longevity.\n\nUsually there is only one or two Reavers in any group that actually has psychic abilities, but prolonged exposure to their powers and experiments over many generations has forcefully twisted Reaver's genetics to make them more prone to violent tendencies, and it has given them a durable body to better survive the results of those tendencies, usually at the expense of their mental acuity and longevity.</description>
-        <descriptionShort>Reavers are psychic warriors who try to take all psychic artifacts that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else.</descriptionShort>
+        <description>Reavers are psychic warriors who try to take every psychic artifact that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else, usually at the expense of their mental acuity and longevity.\n\nUsually there is only one or two Reavers in any group that actually has psychic abilities, but prolonged exposure to their powers and experiments over many generations has forcefully twisted Reaver's genetics to make them more prone to violent tendencies, and it has given them a durable body to better survive the results of those tendencies, usually at the expense of their mental acuity and longevity.</description>
+        <descriptionShort>Reavers are psychic warriors who try to take every psychic artifact that they can get their hands on. They have a high attunement to psionics, and their bodies are more suited for combat than anything else.</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>2.0</combatPowerFactor>
@@ -280,7 +280,7 @@
         <label>harmonite</label>
         <description>Harmonites are archite enhanced psychics who are usually calming influences within societies. Their dependency on the archites in their bloodstream and their superior psycic abilities has weakened their bodies over many generations, though their minds have been enhanced by the very forces that weakened their bodies. The archites in their blood have rendered them nigh-immortal, even as their frail bodies fail to heal the most minor of wounds at a normal rate.\n\nXenia Nebula was the first harmonite to be created after an interaction with an archite gene-scrambler. All harmonites descended from her, many of them looking similar to the general appearance of those within the society they live in.</description>
         <descriptionShort>Harmonites are archite enhanced psychics who are usually calming influences within societies. Their dependency on the archites in their bloodstream and their superior psycic abilities has weakened their bodies over many generations, though their minds have been enhanced by the very forces that weakened their bodies. The archites in their blood have rendered them nigh-immortal, even as their frail bodies fail to heal the most minor of wounds at a normal rate.</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>0.8</combatPowerFactor>
         <genes>
@@ -325,7 +325,7 @@
         <label>battleborne</label>
         <description>The Battleborne are natural leaders, both during times of war and times of peace. They never need to rest, and their genetics renders them immune to the effects of various psychic effects. While their bodies are naturally suited for both intellectual work and melee combat, they are also reliant on various drugs to continue functioning.\n\nBattleborne was what Dr. Cyra Helios decided to create after seeing the effectiveness of the Viperal. The idea behind the Battleborne was to have a xenotype that could fit in with, and to an extent control, Hussar groups while also being more controllable. The resulting go-juice, pschite, and wake-up depencies were intentional, as they enhanced the Battleborne's ability, in addition to providing an easy way to keep them in line.</description>
         <descriptionShort>The Battleborne are natural leaders, both during times of war and times of peace. They never need to rest, and their genetics renders them immune to the effects of various psychic effects. While their bodies are naturally suited for both intellectual work and melee combat, they are also reliant on various drugs to continue functioning.</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Neanderthal</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon9</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>2.2</combatPowerFactor>
         <genes>
@@ -371,7 +371,7 @@
         <label>oni</label>
         <description>Oni evolved on a harsh post-apocalyptic desert deathworld. They first got their name due to their red appearances and horns, and the name stuck when they demonstrated their violent tendencies. Usually the only times they are happy are the times when they can obey their innate desire for destruction, or their desire to do nothing but eat and sleep.\n\nOccassionally, outlander outposts will be abandoned if a large group of Oni are gathering nearby. Most outlanders believe that when multiple Oni are in the same area, they will start a fight that results in every settlment in the area being destroyed.</description>
         <descriptionShort>Oni evolved on a harsh post-apocalyptic desert deathworld. They first got their name due to their red appearances and horns, and the name stuck when they demonstrated their violent tendencies. Usually the only times they are happy are the times when they can obey their innate desire for destruction, or their desire to do nothing but eat and sleep.</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Impid</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon2</iconPath>
         <inheritable>true</inheritable>
         <combatPowerFactor>1.8</combatPowerFactor>
         <nameMaker>NamerPersonImpid</nameMaker>
@@ -395,7 +395,7 @@
             <li>Pain_Reduced</li> 
             <li>Beauty_VeryUgly</li> 
             <li>Eyes_Red</li> 
-            <li>Headbone_MiniHorns</li> 
+            <li>Headbone_CenterHorn</li> 
             <li>VoiceRoar</li>
             <li>Body_Hulk</li>
             <li>Hair_BrightRed</li>

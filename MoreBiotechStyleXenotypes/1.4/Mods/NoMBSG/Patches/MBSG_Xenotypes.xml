@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="ClimatePreference_Cold"]</xpath>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/GeneDef[defName="MBSG_FireImmune"]</xpath>
+            <match Class="PatchOperationConditional">
+            <xpath>Defs/GeneDef[defName="PsychicAbility_SuperExtreme"]</xpath>
+                <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs</xpath>
+                            <value>
+                                <XenotypeDef>
+                                    <defName>MBSXT_Celestial</defName>
+                                    <label>celestial</label>
+                                    <description>Celestials hate the idea of direct confrontation, preferring to instead settle their fights using wits, words, or if truly necessary, their extreme psychic abilities. They frequently prefer staying outdoors, and live extremely long lives.\n\nNobody knows when the first celestial was born, or even if they were created in a lab. All that is known is that long before humanity explored the stars, celestials have been there. Celestials live for so long that some believe that some of the celestials that live amongst colonies today were alive back when humanity was first discovering space flight, though there is no evidence to support that belief.</description>
+                                    <descriptionShort>Celestials hate the idea of direct confrontation, preferring to instead settle their fights using wits, words, or if truly necessary, their extreme psychic abilities. They frequently prefer staying outdoors, and live extremely long lives.</descriptionShort>
+                                    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+                                    <inheritable>true</inheritable>
+                                    <combatPowerFactor>0.5</combatPowerFactor>
+                                    <displayPriority>-800</displayPriority>
+                                    <genes>
+                                        <li>Stability_Hyper</li> 
+                                        <li>Skin_InkBlack</li> 
+                                        <li>PsychicAbility_SuperExtreme</li> 
+                                        <li>PsychicBonding</li> 
+                                        <li MayRequire="MoreToughnessGenes.Mod">SlightlyDelicate</li> 
+                                        <li MayRequire="MoreToughnessGenes.Mod">MaxTemp_LargeIncrease</li> 
+                                        <li MayRequire="MorePainGenes.Mod">Pain_ExtremeExtra</li> 
+                                        <li MayRequire="MoreBiotechStyleGenes.Miscellaneous">MBSG_Hairless</li>                                         <li MayRequire="MoreBiotechStyleGenes.Miscellaneous">PsychicBonding</li> 
+                                        <li MayRequire="MoreBiotechStyleGenes.Miscellaneous">MBSG_Movable</li> 
+                                        <li MayRequire="MoreBiotechStyleGenes.Violence">MBSG_ViolenceHatred</li>
+                                        <li MayRequire="MoreBiotechStyleGenes.Violence">MinTemp_LargeDecrease</li> 
+                                        <li MayRequire="LibidoGenes.Mod">Libido_VeryLow</li> 
+                                        <li MayRequire="FertilityGenes.Mod">VeryLowFertility</li> 
+                                        <li>AptitudeInept_Shooting</li> 
+                                        <li>AptitudeInept_Melee</li> 
+                                        <li>AptitudeInept_Artistic</li> 
+                                        <li MayRequire="MoreBiotechStyleGenes.Movement">MBSG_SuperNakedSpeed</li> 
+                                        <li MayRequire="MoreBiotechStyleGenes.Movement">AptitudeInstinctive_Social</li> 
+                                        <li MayRequire="MoreStudyGenes.Mod">Learning_VerySlow</li> 
+                                        <li MayRequire="MoreStudyGenes.Mod">AptitudeInstinctive_Intellectual</li> 
+                                    </genes>
+                                </XenotypeDef>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.UVSensitivity">
+                            <xpath>Defs/XenotypeDef[defName="MBSXT_Celestial"]/genes</xpath>
+                            <value>
+                                <li MayRequire="MoreBiotechStyleGenes.Movement">MBSG_UVAbsorbent_Major</li> 
+                                <li MayRequire="MoreBiotechStyleGenes.Movement">MBSG_MoveSpeed_SuperSlow</li> 
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </match>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="ClimatePreference_Cold"]</xpath>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/GeneDef[defName="MBSG_FireImmune"]</xpath>
+            <match Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <XenotypeDef>
+                        <defName>MBSXT_Phoenix</defName>
+                        <label>phoenix</label>
+                        <description>Phoenixes originate from a volcanic planet where areas not flooded with lava were few and far between. To compensate for this, their eyes evolved to be able to see food sources that are exceptionally far away, though due to the nature of their planet their bodies lack some of the safeguards that most people develop from living around bacteria and viruses.\n\nDespite what their name implies, a phoenix is not able to come back from the dead, nor is it able to shoot fire. Their name comes from their ability to survive in extremly hot environments and tendency to find high locations to "perch" as they observe the ground below.</description>
+                        <descriptionShort>Phoenixes originate from a volcanic planet where areas not flooded with lava were few and far between. To compensate for this, their eyes evolved to be able to see food sources that are exceptionally far away, though due to the nature of their planet their bodies lack some of the safeguards that most people develop from living around bacteria and viruses.</descriptionShort>
+                        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+                        <inheritable>true</inheritable>
+                        <combatPowerFactor>1</combatPowerFactor>
+                        <genes>
+                            <li MayRequire="MoreAntitoxicGenes.Mod">ToxResist_Weakness</li> 
+                            <li MayRequire="FertilityGenes.Mod">AboveAverageFertility</li> 
+                            <li MayRequire="MoreBiotechStyleGenes.Digestion">MBSG_SturdyDigestion</li> 
+                            <li MayRequire="MoreBiotechStyleGenes.Vision">VeryFarsighted</li> 
+                            <li>Immunity_Weak</li> 
+                            <li>MBSG_FireImmune</li> 
+                            <li>ClimatePreference_SuperHot</li> 
+                            <li>Ears_Pointed</li>
+                            <li>Hair_BrightRed</li>
+                            <li>Skin_PaleRed</li> 
+                            <li MayRequire="MBSG.Beauty">Beauty_UnbelievablyBeautiful</li> 
+                            <li MayRequire="MBSG.Beauty">AptitudeInept_Mining</li> 
+                            <li>AptitudeAbysmal_Plants</li> 
+                            <li>AptitudeInstinctive_Animals</li> 
+                            <li MayRequire="MoreBiotechStyleGenes.Miscellaneous">MBSG_Stoppable</li> 
+                            <li MayRequire="MoreBiotechStyleGenes.Miscellaneous">AptitudeDecent_Social</li> 
+                        </genes>
+                    </XenotypeDef>
+                </value>
+            </match>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="ClimatePreference_Cold"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+                <XenotypeDef>
+                    <defName>MBSXT_Yeti</defName>
+                    <label>yeti</label>
+                    <description>Yetis hail from a mostly frozen planet where they survived by gathering food from various animals that got their food by tunneling into the ground. Despite the yeti's unsettlingly size and appearance, they are actually very calm individuals.\n\nYeti's are believed to be an evolved version of yttakin, and on planets where both xenotypes thrive they are often seen working together. Despite being less violent than their thin-furred relatives, Yeti and Yttakin societies tend to become more merged the longer the two live in the same area.</description>
+                    <descriptionShort>Yetis hail from a mostly frozen planet where they survived by gathering food from various animals that got their food by tunneling into the ground. Despite the yeti's unsettlingly size and appearance, they are actually very calm individuals.</descriptionShort>
+                    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+                    <inheritable>true</inheritable>
+                    <combatPowerFactor>0.75</combatPowerFactor>
+                    <nameMaker>NamerPersonYttakin</nameMaker>
+                    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+                    <genes>        
+                        <li MayRequire="MoreBiotechStyleGenes.Movement">MBSG_ExtremeNakedSpeed</li>                        
+                        <li MayRequire="MBSG.Beauty">Beauty_ExtremelyUgly</li>
+                        <li MayRequire="MorePainGenes.Mod">Pain_Immune</li>
+                        <li MayRequire="MorePainGenes.Mod">PsychicAbility_Deaf</li>
+                        <li MayRequire="MoreHappinessGenes.Mod">Mood_SuperSanguine</li>
+                        <li MayRequire="MoreHappinessGenes.Mod">FireTerror</li>
+                        <li MayRequire="MoreBiotechStyleGenes.Violence">MBSG_ViolenceDislike</li>
+                        <li MayRequire="MoreBiotechStyleGenes.Violence">Aggression_DeadCalm</li>
+                        <li MayRequire="MoreStudyGenes.Mod">Learning_SomewhatSlow</li>
+                        <li MayRequire="MoreStudyGenes.Mod">StrongStomach</li>
+                        <li MayRequire="MoreBiotechStyleGenes.UVSensitivity">MBSG_UVSensitivity_VeryMinor</li>
+                        <li MayRequire="MoreBiotechStyleGenes.UVSensitivity">RobustDigestion</li>
+                        <li MayRequire="LibidoGenes.Mod">Libido_VeryLow</li>
+                        <li MayRequire="FertilityGenes.Mod">LowFertility</li> 
+                        <li>Beard_Always</li> 
+                        <li>VoiceRoar</li> 
+                        <li>Body_Hulk</li> 
+                        <li>Hair_SnowWhite</li>
+                        <li>Furskin</li> 
+                        <li>ClimatePreference_Cold</li>
+                        <li>MinTemp_LargeDecrease</li>
+                        <li>KindInstinct</li>
+                        <li MayRequire="MoreToughnessGenes.Mod">SuperRobust</li>
+                        <li MayRequire="MoreToughnessGenes.Mod">AptitudeAbysmal_Shooting</li> 
+                        <li>AptitudeInept_Plants</li> 
+                        <li>AptitudeInstinctive_Animals</li> 
+                        <li MayRequire="MoreBiotechStyleGenes.Fire">MBSG_FireWeaknessMajor</li>
+                        <li MayRequire="MoreBiotechStyleGenes.Fire">AptitudeDecent_Medicine</li>
+                    </genes>
+                </XenotypeDef>
+            </value>
+        </match>
+    </Operation>
+</Patch>
