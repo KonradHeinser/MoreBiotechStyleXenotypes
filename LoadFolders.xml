@@ -5,4 +5,10 @@
         <li IfModActive="morebiotechstylegenes.mod">1.4/Mods/MBSG</li>	
         <li IfModActive="MoreBiotechStyleGenes.Aptitudes">1.4/Mods/NoMBSG</li>	
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="morebiotechstylegenes.mod">1.5/Mods/MBSG</li>	
+        <li IfModActive="MoreBiotechStyleGenes.Aptitudes">1.5/Mods/NoMBSG</li>	
+	</v1.5>
 </loadFolders>
