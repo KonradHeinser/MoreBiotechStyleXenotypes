@@ -15,6 +15,10 @@
     </li>
   </modDependencies>
 
+  <loadBefore>
+    <li>GrillMaster.moreracesfactions</li>
+    <li>GrillMaster.vanillaxenotypesimproved</li>
+  </loadBefore>
   <loadAfter>
     <li>Ludeon.RimWorld.Biotech</li>
     <li>LibidoGenes.Mod</li>
