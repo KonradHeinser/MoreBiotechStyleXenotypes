@@ -2,7 +2,7 @@
 <Patch>
     <!--Change the factions def xenotype weights to include the new xenotypes, and make baseliners less likely-->
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet/xenotypeChances</xpath>
+        <xpath>Defs/FactionDef[defName="TribeSavageImpid"]/xenotypeSet/xenotypeChances</xpath>
         <value>
             <xenotypeChances>
                 <Impid>0.9</Impid>
@@ -11,19 +11,10 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/FactionDef[defName="PirateWaster"]/xenotypeSet/xenotypeChances</xpath>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[defName="PirateWaster"]/xenotypeSet/xenotypeChances</xpath>
         <value>
-          <xenotypeChances>
-            <Waster>0.70</Waster>
-            <Hussar>0.02</Hussar>
             <MBSXT_Battleborne>0.02</MBSXT_Battleborne>
-            <Neanderthal>0.02</Neanderthal>
-            <Dirtmole>0.02</Dirtmole>
-            <Genie>0.02</Genie>
-            <Pigskin>0.02</Pigskin>
-            <Yttakin>0.02</Yttakin>
-            <Impid>0.02</Impid>
             <MBSXT_Oni>0.02</MBSXT_Oni>
             <MBSXT_Canuskin>0.02</MBSXT_Canuskin>
             <MBSXT_Felionkin>0.02</MBSXT_Felionkin>
@@ -31,21 +22,12 @@
             <MBSXT_Damphir>0.02</MBSXT_Damphir>
             <MBSXT_Viperal>0.02</MBSXT_Viperal>
             <MBSXT_Reaver>0.02</MBSXT_Reaver>
-          </xenotypeChances>
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
         <value>
-          <xenotypeChances>
-            <Hussar>0.05</Hussar>
-            <Neanderthal>0.05</Neanderthal>
-            <Dirtmole>0.05</Dirtmole>
-            <Genie>0.05</Genie>
-            <Pigskin>0.05</Pigskin>
-            <Yttakin>0.05</Yttakin>
-            <Impid>0.05</Impid>
             <MBSXT_Toxinborn>0.05</MBSXT_Toxinborn>
             <MBSXT_Battleborne>0.05</MBSXT_Battleborne>
             <MBSXT_Canuskin>0.05</MBSXT_Canuskin>
@@ -54,43 +36,45 @@
             <MBSXT_Damphir>0.025</MBSXT_Damphir>
             <MBSXT_Viperal>0.05</MBSXT_Viperal>
             <MBSXT_Harmonite>0.025</MBSXT_Harmonite>
-          </xenotypeChances>
         </value>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/xenotypeSet</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
+            <value>
+                <MBSXT_Toxinborn>0.05</MBSXT_Toxinborn>
+                <MBSXT_Canuskin>0.05</MBSXT_Canuskin>
+                <MBSXT_Felionkin>0.05</MBSXT_Felionkin>
+                <MBSXT_Artifexian>0.05</MBSXT_Artifexian>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/FactionDef[@Name="TribeBase"]</xpath>
+            <value>
+                <xenotypeSet>
+                    <xenotypeChances>
+                        <Neanderthal>0.05</Neanderthal>
+                        <Dirtmole>0.05</Dirtmole>
+                        <Genie>0.05</Genie>
+                        <Pigskin>0.05</Pigskin>
+                        <Yttakin>0.05</Yttakin>
+                        <Impid>0.05</Impid>
+                        <MBSXT_Toxinborn>0.05</MBSXT_Toxinborn>
+                        <MBSXT_Canuskin>0.05</MBSXT_Canuskin>
+                        <MBSXT_Felionkin>0.05</MBSXT_Felionkin>
+                        <MBSXT_Artifexian>0.05</MBSXT_Artifexian>
+                    </xenotypeChances>
+                </xenotypeSet>
+            </value>
+        </nomatch>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/FactionDef[@Name="TribeBase"]</xpath>
+        <xpath>Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances</xpath>
         <value>
-            <xenotypeSet>
-                <xenotypeChances>
-                    <Neanderthal>0.05</Neanderthal>
-                    <Dirtmole>0.05</Dirtmole>
-                    <Genie>0.05</Genie>
-                    <Pigskin>0.05</Pigskin>
-                    <Yttakin>0.05</Yttakin>
-                    <Impid>0.05</Impid>
-                    <MBSXT_Toxinborn>0.05</MBSXT_Toxinborn>
-                    <MBSXT_Canuskin>0.05</MBSXT_Canuskin>
-                    <MBSXT_Felionkin>0.05</MBSXT_Felionkin>
-                    <MBSXT_Artifexian>0.05</MBSXT_Artifexian>
-                </xenotypeChances>
-            </xenotypeSet>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances</xpath>
-        <value>
-          <xenotypeChances>
-            <Waster>0.025</Waster>
-            <Hussar>0.05</Hussar>
             <MBSXT_Battleborne>0.05</MBSXT_Battleborne>
-            <Neanderthal>0.025</Neanderthal>
-            <Dirtmole>0.1</Dirtmole>
-            <Genie>0.025</Genie>
-            <Pigskin>0.025</Pigskin>
-            <Yttakin>0.025</Yttakin>
-            <Impid>0.025</Impid>
             <MBSXT_Oni>0.025</MBSXT_Oni>
             <MBSXT_Canuskin>0.05</MBSXT_Canuskin>
             <MBSXT_Felionkin>0.05</MBSXT_Felionkin>
@@ -98,14 +82,13 @@
             <MBSXT_Damphir>0.025</MBSXT_Damphir>
             <MBSXT_Viperal>0.05</MBSXT_Viperal>
             <MBSXT_Reaver>0.05</MBSXT_Reaver>
-          </xenotypeChances>
         </value>
     </Operation>
 
     <!--Add the new xenotypes to the pawnkind defs-->
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/PawnKindDef[defName="Town_Trader"]/xenotypeSet/xenotypeChances</xpath>
+        <xpath>Defs/PawnKindDef[defName="Town_Trader"]/xenotypeSet/xenotypeChances</xpath>
         <value>
             <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
             <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
@@ -116,7 +99,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
+        <xpath>Defs/PawnKindDef[@Name="SpaceRefugeeBase"]/xenotypeSet/xenotypeChances</xpath>
         <value>
             <MBSXT_Canuskin>0.04</MBSXT_Canuskin>
             <MBSXT_Felionkin>0.04</MBSXT_Felionkin>
@@ -129,7 +112,7 @@
     <!--Add to slave pawndefs-->
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/PawnKindDef[defName="Slave"]/xenotypeSet/xenotypeChances</xpath>
+        <xpath>Defs/PawnKindDef[defName="Slave"]/xenotypeSet/xenotypeChances</xpath>
         <value>
             <MBSXT_Damphir>0.01</MBSXT_Damphir>
             <MBSXT_Viperal>0.01</MBSXT_Viperal>
@@ -147,17 +130,9 @@
     <!--Ideology stuff-->
     <Operation Class="PatchOperationSequence">
         <operations>
-            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
-                <xpath>/Defs/FactionDef[defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
+            <li Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/FactionDef[defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
-                  <xenotypeChances>
-                    <Neanderthal>0.05</Neanderthal>
-                    <Hussar>0.05</Hussar>
-                    <Pigskin>0.05</Pigskin>
-                    <Yttakin>0.05</Yttakin>
-                    <Genie>0.05</Genie>
-                    <Dirtmole>0.05</Dirtmole>
-                    <Highmate>0.05</Highmate>
                     <MBSXT_Damphir>0.001</MBSXT_Damphir>
                     <MBSXT_Viperal>0.001</MBSXT_Viperal>
                     <MBSXT_Artifexian>0.05</MBSXT_Artifexian>
@@ -167,21 +142,12 @@
                     <MBSXT_Harmonite>0.001</MBSXT_Harmonite>
                     <MBSXT_Battleborne>0.01</MBSXT_Battleborne>
                     <MBSXT_Oni>0.01</MBSXT_Oni>
-                  </xenotypeChances>
                 </value>
             </li>
 
-            <li Class="PatchOperationReplace" MayRequire="ludeon.rimworld.ideology">
-                <xpath>/Defs/FactionDef[defName="Beggars"]/xenotypeSet/xenotypeChances</xpath>
+            <li Class="PatchOperationAdd" MayRequire="ludeon.rimworld.ideology">
+                <xpath>Defs/FactionDef[defName="Beggars"]/xenotypeSet/xenotypeChances</xpath>
                 <value>
-                  <xenotypeChances>
-                    <Neanderthal>0.05</Neanderthal>
-                    <Hussar>0.05</Hussar>
-                    <Pigskin>0.05</Pigskin>
-                    <Yttakin>0.05</Yttakin>
-                    <Genie>0.05</Genie>
-                    <Dirtmole>0.05</Dirtmole>
-                    <Highmate>0.05</Highmate>
                     <MBSXT_Damphir>0.001</MBSXT_Damphir>
                     <MBSXT_Viperal>0.001</MBSXT_Viperal>
                     <MBSXT_Artifexian>0.05</MBSXT_Artifexian>
@@ -191,11 +157,8 @@
                     <MBSXT_Harmonite>0.001</MBSXT_Harmonite>
                     <MBSXT_Battleborne>0.01</MBSXT_Battleborne>
                     <MBSXT_Oni>0.01</MBSXT_Oni>
-                  </xenotypeChances>
                 </value>
             </li>
         </operations>
     </Operation>
 </Patch>
-
-
